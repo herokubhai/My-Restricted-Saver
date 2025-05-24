@@ -71,4 +71,5 @@ class Bot(Client):
         await super().stop()
         print('Bot Stopped Bye')
 
-Bot().run()
+if __name__ == "__main__":
+    Bot().run()
